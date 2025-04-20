@@ -93,7 +93,7 @@
         <h2>Popular Dishes</h2>
         <div class="dishes_grid" v-if = "popularDishes.length > 0">
           <div class="dish_card" v-for="dish in popularDishes" :key="dish.name">
-            <img :src= "'https://kelvinspice.com.ng/images/'+dish.image" :alt="dish.name">
+            <img :src= "'https://mosesfoodorderingapp.kelvinspice.com.ng/images/'+dish.image" :alt="dish.name">
             <h3>{{ dish.name }}</h3>
             <p>{{ dish.description }}</p>
             <router-link :to="`/view-dish/${dish.name}`" class="order_button">Order Now</router-link>

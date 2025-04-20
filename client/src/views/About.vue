@@ -204,7 +204,6 @@ onUpdated(() => {
   }
 
   div.our_services {
-     background-image: url('../assets/static_images/kelvin_spice2.jpg');
      background-repeat: no-repeat;
      background-position: center;
      height: auto;
@@ -345,7 +344,6 @@ onUpdated(() => {
   }
 
   div.our_services {
-     background-image: url('../assets/static_images/kelvin_spice2.jpg');
      background-repeat: no-repeat;
      background-position: center;
      height: auto;
