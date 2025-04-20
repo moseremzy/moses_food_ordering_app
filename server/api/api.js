@@ -437,7 +437,7 @@ static async submit_order(req, res) {
               phone: data.phone,
               confirmation_pin: data.confirmation_pin,
           },
-          callback_url: "https://kelvinspice.com.ng/account/payment-verification",
+          callback_url: "https://mosesfoodorderingapp.kelvinspice.com.ng/account/payment-verification",
       };
 
       try {
