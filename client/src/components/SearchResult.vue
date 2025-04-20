@@ -22,7 +22,7 @@
     <router-link @click = "interactive_store.clearQuery" :to = "'/view-dish/'+item.name" class = "link">
     <div class = "item">
     <div>
-        <img :src= "'https://kelvinspice.com.ng/images/'+item.image" :alt="item.name">
+        <img :src= "'https://mosesfoodorderingapp.kelvinspice.com.ng/images/'+item.image" :alt="item.name">
     </div>
     <div class = "info">
         <h2>{{item.name}}</h2>

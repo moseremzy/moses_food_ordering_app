@@ -12,7 +12,7 @@
             </router-link>
 
             <div class = "image_cart">
-            <router-link :to = "'/view-dish/'+item.name" id = 'link'><img :src= "'https://kelvinspice.com.ng/images/'+item.image"></router-link> 
+            <router-link :to = "'/view-dish/'+item.name" id = 'link'><img :src= "'http://mosesfoodorderingapp.kelvinspice.com.ng/images/'+item.image"></router-link> 
             <button @click = "AddToCart(item, 1)" v-if = "market_status === 'open'">Add to Cart</button>
             </div>
         </div>

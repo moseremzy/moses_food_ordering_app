@@ -22,7 +22,7 @@
 
        <div class = "image"> 
 
-        <img :src= "'https://kelvinspice.com.ng/images/'+item[0].image" :alt="item[0].name">
+        <img :src= "'https://mosesfoodorderingapp.kelvinspice.com.ng/images/'+item[0].image" :alt="item[0].name">
 
        </div>
 

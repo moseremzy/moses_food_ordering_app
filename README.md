@@ -32,7 +32,9 @@ food_ordering_app/
 │       ├── views/        # Vue pages
 │       ├── middlewares/  # Custom middlewares (if any)
 │       └── components/   # Vue components
-│
+│  └── api.js             # controllers  
+
+
 ├── server/               # Express.js backend
 │   ├── api/              # Controllers
 │   ├── images/           # Static files (images)
